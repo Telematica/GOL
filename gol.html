@@ -1,37 +1,36 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<style>
-		#board { height: auto; margin: 0 auto; max-width: 60px; }
-		.cell { border: 1px solid #000; display: inline-block; height: 10px; margin: 0; padding: 0; width: 10px; }
-
-		.alive { background-color: blue;}
-	</style>
-</head>
-<body>
-	<div id="board">
-		<div class="cell" id="0"></div>
-		<div class="cell" id="1"></div>
-		<div class="cell" id="2"></div>
-		<div class="cell" id="3"></div>
-		<div class="cell" id="4"></div>
-		<div class="cell" id="5"></div>
-		<div class="cell" id="6"></div>
-		<div class="cell" id="7"></div>
-		<div class="cell" id="8"></div>
-		<div class="cell" id="9"></div>
-		<div class="cell" id="10"></div>
-		<div class="cell" id="11"></div>
-		<div class="cell" id="12"></div>
-		<div class="cell" id="13"></div>
-		<div class="cell" id="14"></div>
-		<div class="cell" id="15"></div>
-	<button id="next-step">Next Generation</button>
-	<button id="next-step">Clear &amp; Randomize</button>
-	</div>
-	<script src="gol.js" type="text/javascript"></script>	
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			#board { height: auto; margin: 0 auto; max-width: 425px; }
+			.cell  { border: 1px solid #000; display: inline-block; height: 100px; margin: 0; padding: 0; width: 100px; }
+			.alive { background-color: blue; }
+		</style>
+	</head>
+	<body>
+		<div id="board">
+			<div class="cell" id="0"></div>
+			<div class="cell" id="1"></div>
+			<div class="cell" id="2"></div>
+			<div class="cell" id="3"></div>
+			<div class="cell" id="4"></div>
+			<div class="cell" id="5"></div>
+			<div class="cell" id="6"></div>
+			<div class="cell" id="7"></div>
+			<div class="cell" id="8"></div>
+			<div class="cell" id="9"></div>
+			<div class="cell" id="10"></div>
+			<div class="cell" id="11"></div>
+			<div class="cell" id="12"></div>
+			<div class="cell" id="13"></div>
+			<div class="cell" id="14"></div>
+			<div class="cell" id="15"></div>
+			<button id="next-step">Next Generation</button>
+			<button id="start">Clear &amp; Randomize</button>
+		</div>
+		<script src="gol.js" type="text/javascript"></script>	
+	</body>
 </html>
 
