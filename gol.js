@@ -1,6 +1,6 @@
 /**
  * @function annon. closure
- * @description Main implementation closure (avoids exposing functions to global scoop)
+ * @description Main implementation closure (avoids exposing functions to global scope)
  * @param object a window
  */
 ;( function( a )
